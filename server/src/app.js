@@ -6,7 +6,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://ai-sensyproject-1qv8v5v23-talukdarudits-projects.vercel.app",
     credentials: true,
   })
 );
